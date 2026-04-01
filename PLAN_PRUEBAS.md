@@ -348,7 +348,7 @@ Build succeeded.
 
 | Total casos | Pasan | Fallan |
 |---|---|---|
-| 30 | 30 | 0 |
+| 28 | 28 | 0 |
 
 ---
 
