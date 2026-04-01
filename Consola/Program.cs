@@ -21,7 +21,6 @@ class Program
             Console.WriteLine("4. Atender próximo turno");
             Console.WriteLine("5. Ver historial");
             Console.WriteLine("6. Recaudación del día");
-            Console.WriteLine("7. Recaudación total");
             Console.WriteLine("0. Salir");
             Console.Write("Seleccione una opción: ");
 
