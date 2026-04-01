@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{BFFB94BA-2A30-4360-A072-CE8124B66DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{CA741C95-47D2-4062-A1D1-1A862A72A6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{BD07A919-AA40-4044-BC0C-86731F6BF70C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFB94BA-2A30-4360-A072-CE8124B66DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFB94BA-2A30-4360-A072-CE8124B66DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFB94BA-2A30-4360-A072-CE8124B66DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFB94BA-2A30-4360-A072-CE8124B66DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA741C95-47D2-4062-A1D1-1A862A72A6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA741C95-47D2-4062-A1D1-1A862A72A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA741C95-47D2-4062-A1D1-1A862A72A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA741C95-47D2-4062-A1D1-1A862A72A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD07A919-AA40-4044-BC0C-86731F6BF70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD07A919-AA40-4044-BC0C-86731F6BF70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD07A919-AA40-4044-BC0C-86731F6BF70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD07A919-AA40-4044-BC0C-86731F6BF70C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

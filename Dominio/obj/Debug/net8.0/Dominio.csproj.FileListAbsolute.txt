@@ -1,0 +1,11 @@
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\ref\Dominio.dll
