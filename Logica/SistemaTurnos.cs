@@ -137,6 +137,18 @@ public class SistemaTurnos
         return new List<Turno>(_historial);
     }
 
+    public decimal ObtenerRecaudacionTotal()
+    {
+        decimal total = 0;
+
+        foreach (Turno turno in _historial)
+        {
+            total += turno.CalcularCosto();
+        }
+
+        return total;
+    }
+
     public decimal ObtenerRecaudacionDelDia(DateTime fecha)
     {
         decimal total = 0;
