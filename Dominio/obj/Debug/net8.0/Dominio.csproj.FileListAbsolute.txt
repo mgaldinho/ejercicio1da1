@@ -1,11 +1,23 @@
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.deps.json
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.dll
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\bin\Debug\net8.0\Dominio.pdb
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.dll
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\refint\Dominio.dll
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\Dominio.pdb
-C:\Users\mateo\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\ORT\2026\DA1\Clinica\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/bin/Debug/net8.0/Dominio.deps.json
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/bin/Debug/net8.0/Dominio.dll
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/bin/Debug/net8.0/Dominio.pdb
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfoInputs.cache
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfo.cs
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.csproj.CoreCompileInputs.cache
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.dll
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/refint/Dominio.dll
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/Dominio.pdb
+C:/Users/mateo/OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay/ORT/2026/DA1/Clinica/Dominio/obj/Debug/net8.0/ref/Dominio.dll
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/bin/Debug/net8.0/Dominio.deps.json
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/bin/Debug/net8.0/Dominio.dll
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/bin/Debug/net8.0/Dominio.pdb
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfoInputs.cache
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfo.cs
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.csproj.CoreCompileInputs.cache
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.sourcelink.json
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.dll
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/refint/Dominio.dll
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/Dominio.pdb
+/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/Debug/net8.0/ref/Dominio.dll

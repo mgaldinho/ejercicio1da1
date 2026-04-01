@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Logica\\Logica.csproj": {}
+    "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Logica/Logica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\Dominio.csproj": {
+    "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\obj\\",
+        "projectPath": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/Dominio.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,44 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\mateo\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Logica\\Logica.csproj": {
+    "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Logica/Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Logica\\Logica.csproj",
+        "projectUniqueName": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Logica/Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Logica\\Logica.csproj",
-        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Logica\\obj\\",
+        "projectPath": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Logica/Logica.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Logica/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -107,8 +85,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\mateo\\OneDrive - Facultad de Ingenieria - Universidad ORT Uruguay\\ORT\\2026\\DA1\\Clinica\\Dominio\\Dominio.csproj"
+              "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/Dominio.csproj": {
+                "projectPath": "/home/runner/work/Ejercicio1DA1/Ejercicio1DA1/Dominio/Dominio.csproj"
               }
             }
           }
@@ -139,26 +117,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.25, 8.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\mateo\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
