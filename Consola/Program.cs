@@ -48,9 +48,6 @@ class Program
                     case "6":
                         VerRecaudacion(sistema);
                         break;
-                    case "7":
-                        VerRecaudacionTotal(sistema);
-                        break;
                     case "0":
                         salir = true;
                         break;
