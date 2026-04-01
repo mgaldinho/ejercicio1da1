@@ -257,12 +257,6 @@ class Program
         Console.WriteLine($"Recaudación del día: ${total:0.00}");
     }
 
-    static void VerRecaudacionTotal(SistemaTurnos sistema)
-    {
-        decimal total = sistema.ObtenerRecaudacionTotal();
-        Console.WriteLine($"Recaudación total: ${total:0.00}");
-    }
-
     static int LeerEntero(string mensaje)
     {
         int valor;
