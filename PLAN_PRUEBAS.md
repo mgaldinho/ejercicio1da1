@@ -289,11 +289,66 @@ Build succeeded.
 
 ---
 
+### CP-26 – Listar turnos del día cuando no hay resultados
+
+| Campo | Valor |
+|---|---|
+| **Pasos** | Sin registrar ningún turno, seleccionar opción 2 (Listar turnos del día) e ingresar una fecha sin turnos registrados. |
+| **Resultado esperado** | El sistema informa que no hay turnos para ese día. |
+| **Resultado observado** | `No hay turnos para ese día.` |
+| **Estado** | ✅ PASA |
+
+---
+
+### CP-27 – Listar turnos por médico sin resultados
+
+| Campo | Valor |
+|---|---|
+| **Pasos** | Sin registrar ningún turno, seleccionar opción 3 (Listar turnos por médico) e ingresar el nombre de un médico que no tiene turnos pendientes. |
+| **Resultado esperado** | El sistema informa que no hay turnos pendientes para ese médico. |
+| **Resultado observado** | `No hay turnos pendientes para ese médico.` |
+| **Estado** | ✅ PASA |
+
+---
+
+### CP-28 – Historial vacío antes de atender turnos
+
+| Campo | Valor |
+|---|---|
+| **Pasos** | Sin atender ningún turno, seleccionar opción 5 (Ver historial). |
+| **Resultado esperado** | El sistema informa que no hay turnos atendidos aún. |
+| **Resultado observado** | `No hay turnos atendidos todavía.` |
+| **Estado** | ✅ PASA |
+
+---
+
+### CP-29 – Entrada no numérica en selección de menú, médico y prioridad
+
+| Campo | Valor |
+|---|---|
+| **Pasos** | a) Ingresar `abc` como opción de menú principal. b) Al seleccionar médico, ingresar `abc` y luego un número válido (1). c) Al seleccionar prioridad de urgencia, ingresar `abc` y luego un número válido (2). |
+| **Resultado esperado** | a) El menú muestra "Opción inválida." y vuelve a mostrarse. b) `LeerEntero` repite el prompt hasta recibir un entero válido. c) Mismo comportamiento que (b) para la selección de prioridad. |
+| **Resultado observado** | a) `Opción inválida.` → vuelve al menú. b) `Seleccione médico:` se repite hasta recibir un entero. c) `Seleccione prioridad:` se repite hasta recibir un entero. |
+| **Estado** | ✅ PASA |
+
+---
+
+### CP-30 – Permitir mismo médico en distinta hora del mismo día
+
+| Campo | Valor |
+|---|---|
+| **Pasos** | Registrar 3 turnos para Dr. Pérez el 28/04/2026 a las 09:00, 11:00 y 14:00 respectivamente. |
+| **Resultado esperado** | Los 3 turnos se registran correctamente. Al listar el día se muestran los 3 en orden cronológico. |
+| **Resultado observado** | Los 3 turnos registrados: `Turno registrado correctamente. Costo final: $2500.00` (×3). Listado del día muestra 09:00 → 11:00 → 14:00. |
+| **Estado** | ✅ PASA |
+
+---
+
 ## Resumen
 
 | Total casos | Pasan | Fallan |
 |---|---|---|
-| 25 | 25 | 0 |
+| 30 | 30 | 0 |
 
 ---
 
