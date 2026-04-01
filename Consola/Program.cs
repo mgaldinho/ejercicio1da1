@@ -1,4 +1,5 @@
-﻿using Dominio;
+﻿using System.Globalization;
+using Dominio;
 using Logica;
 
 namespace Consola;
@@ -20,6 +21,7 @@ class Program
             Console.WriteLine("4. Atender próximo turno");
             Console.WriteLine("5. Ver historial");
             Console.WriteLine("6. Recaudación del día");
+            Console.WriteLine("7. Recaudación total");
             Console.WriteLine("0. Salir");
             Console.Write("Seleccione una opción: ");
 
@@ -46,6 +48,9 @@ class Program
                         break;
                     case "6":
                         VerRecaudacion(sistema);
+                        break;
+                    case "7":
+                        VerRecaudacionTotal(sistema);
                         break;
                     case "0":
                         salir = true;
@@ -94,8 +99,20 @@ class Program
         Console.Write("Nombre del paciente: ");
         string nombre = Console.ReadLine() ?? "";
 
+        if (string.IsNullOrWhiteSpace(nombre))
+        {
+            Console.WriteLine("El nombre no puede estar vacío.");
+            return;
+        }
+
         Console.Write("Apellido del paciente: ");
         string apellido = Console.ReadLine() ?? "";
+
+        if (string.IsNullOrWhiteSpace(apellido))
+        {
+            Console.WriteLine("El apellido no puede estar vacío.");
+            return;
+        }
 
         DateTime fechaNacimiento = LeerFecha("Fecha de nacimiento (dd/MM/yyyy): ");
 
@@ -134,6 +151,13 @@ class Program
             case "3":
                 Console.Write("Ingrese link de videollamada: ");
                 string link = Console.ReadLine() ?? "";
+
+                if (string.IsNullOrWhiteSpace(link))
+                {
+                    Console.WriteLine("El link de videollamada no puede estar vacío.");
+                    return;
+                }
+
                 turno = new ConsultaTelemedicina(medico, paciente, fechaHora, link);
                 break;
 
@@ -167,6 +191,7 @@ class Program
         foreach (Turno turno in turnos)
         {
             Console.WriteLine(turno.ObtenerInformacion());
+            Console.WriteLine("---");
         }
     }
 
@@ -188,6 +213,7 @@ class Program
         foreach (Turno turno in turnos)
         {
             Console.WriteLine(turno.ObtenerInformacion());
+            Console.WriteLine("---");
         }
     }
 
@@ -221,6 +247,7 @@ class Program
         foreach (Turno turno in historial)
         {
             Console.WriteLine(turno.ObtenerInformacion());
+            Console.WriteLine("---");
         }
     }
 
@@ -229,6 +256,12 @@ class Program
         DateTime fecha = LeerFecha("Ingrese la fecha (dd/MM/yyyy): ");
         decimal total = sistema.ObtenerRecaudacionDelDia(fecha);
         Console.WriteLine($"Recaudación del día: ${total:0.00}");
+    }
+
+    static void VerRecaudacionTotal(SistemaTurnos sistema)
+    {
+        decimal total = sistema.ObtenerRecaudacionTotal();
+        Console.WriteLine($"Recaudación total: ${total:0.00}");
     }
 
     static int LeerEntero(string mensaje)
@@ -244,23 +277,31 @@ class Program
 
     static DateTime LeerFecha(string mensaje)
     {
-        DateTime fecha;
-        do
+        while (true)
         {
             Console.Write(mensaje);
-        } while (!DateTime.TryParse(Console.ReadLine(), out fecha));
-
-        return fecha;
+            string? entrada = Console.ReadLine();
+            if (DateTime.TryParseExact(entrada, "dd/MM/yyyy",
+                    CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime fecha))
+            {
+                return fecha;
+            }
+            Console.WriteLine("Formato inválido. Use dd/MM/yyyy (ejemplo: 25/12/2024).");
+        }
     }
 
     static DateTime LeerFechaHora(string mensaje)
     {
-        DateTime fechaHora;
-        do
+        while (true)
         {
             Console.Write(mensaje);
-        } while (!DateTime.TryParse(Console.ReadLine(), out fechaHora));
-
-        return fechaHora;
+            string? entrada = Console.ReadLine();
+            if (DateTime.TryParseExact(entrada, "dd/MM/yyyy HH:mm",
+                    CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime fechaHora))
+            {
+                return fechaHora;
+            }
+            Console.WriteLine("Formato inválido. Use dd/MM/yyyy HH:mm (ejemplo: 25/12/2024 14:30).");
+        }
     }
 }

@@ -22,6 +22,6 @@ public class ConsultaTelemedicina : Turno
 
     public override string ObtenerInformacion()
     {
-        return base.ObtenerInformacion() + $"\n Link: {LinkVideoLlamada}";
+        return base.ObtenerInformacion() + $"\nLink: {LinkVideoLlamada}";
     }
 }
