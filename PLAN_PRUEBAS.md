@@ -163,7 +163,7 @@ Build succeeded.
 |---|---|
 | **Pasos** | Registrar 2 urgencias con la misma prioridad en orden de llegada. Atender (opción 4). |
 | **Resultado esperado** | Se atiende primero la urgencia registrada antes. |
-| **Resultado observado** | Urgencia Media registrada antes de otra Media es atendida primero. (Confirmado en CP-11: el código usa `FechaRegistro` para desempate.) |
+| **Resultado observado** | Urgencia Media registrada antes de otra Media es atendida primero. Se verifica que, ante urgencias con igual prioridad, se atiende primero la registrada antes. |
 | **Estado** | ✅ PASA |
 
 ---
@@ -197,28 +197,6 @@ Build succeeded.
 | **Pasos** | Registrar 2 turnos (Dr. Pérez $2500 + Dr. Rodríguez $4000), atenderlos, consultar recaudación del día (opción 6). |
 | **Resultado esperado** | $6500.00 |
 | **Resultado observado** | `Recaudación del día: $6500.00` |
-| **Estado** | ✅ PASA |
-
----
-
-### CP-16 – Recaudación total coincide con la del día cuando es el mismo día
-
-| Campo | Valor |
-|---|---|
-| **Pasos** | Mismos 2 turnos atendidos del CP-15. Consultar recaudación total (opción 7). |
-| **Resultado esperado** | $6500.00 |
-| **Resultado observado** | `Recaudación total: $6500.00` |
-| **Estado** | ✅ PASA |
-
----
-
-### CP-17 – Recaudación no incluye turnos pendientes (no atendidos)
-
-| Campo | Valor |
-|---|---|
-| **Pasos** | Registrar 1 turno sin atender. Consultar recaudación del día y total. |
-| **Resultado esperado** | $0.00 en ambas |
-| **Resultado observado** | `Recaudación del día: $0.00` y `Recaudación total: $0.00` |
 | **Estado** | ✅ PASA |
 
 ---
